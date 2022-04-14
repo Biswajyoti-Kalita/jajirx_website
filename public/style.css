@@ -1,0 +1,2600 @@
+/* Created by Artisteer v4.3.0.60745 */
+
+#jajiRx-main {
+  background: #d5e9f0 url("images/page.png") top center repeat-x scroll;
+  margin: 0 auto;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  left: 0;
+  top: 0;
+  cursor: default;
+  overflow: hidden;
+}
+table,
+ul.jajiRx-hmenu {
+  font-size: 13px;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset buttons border. It's important for input and button tags. 
+ * border-collapse should be separate for shadow in IE. 
+ */
+.jajiRx-button {
+  border-collapse: separate;
+  -webkit-background-origin: border !important;
+  -moz-background-origin: border !important;
+  background-origin: border-box !important;
+  background: #6cace0;
+  background: -webkit-linear-gradient(top, #96c3e9 0, #3d91d6 100%) no-repeat;
+  background: -moz-linear-gradient(top, #96c3e9 0, #3d91d6 100%) no-repeat;
+  background: -o-linear-gradient(top, #96c3e9 0, #3d91d6 100%) no-repeat;
+  background: -ms-linear-gradient(top, #96c3e9 0, #3d91d6 100%) no-repeat;
+  -svg-background: linear-gradient(top, #96c3e9 0, #3d91d6 100%) no-repeat;
+  background: linear-gradient(to bottom, #96c3e9 0, #3d91d6 100%) no-repeat;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+  border: 1px solid #6cace0;
+  padding: 0 30px;
+  margin: 0 auto;
+  height: 31px;
+}
+
+.jajiRx-postcontent,
+.jajiRx-postheadericons,
+.jajiRx-postfootericons,
+.jajiRx-blockcontent,
+ul.jajiRx-vmenu a {
+  text-align: left;
+}
+
+.jajiRx-postcontent,
+.jajiRx-postcontent li,
+.jajiRx-postcontent table,
+.jajiRx-postcontent a,
+.jajiRx-postcontent a:link,
+.jajiRx-postcontent a:visited,
+.jajiRx-postcontent a.visited,
+.jajiRx-postcontent a:hover,
+.jajiRx-postcontent a.hovered {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-align: left;
+}
+
+.jajiRx-postcontent p {
+  margin: 12px 0;
+}
+
+.jajiRx-postcontent h1,
+.jajiRx-postcontent h1 a,
+.jajiRx-postcontent h1 a:link,
+.jajiRx-postcontent h1 a:visited,
+.jajiRx-postcontent h1 a:hover,
+.jajiRx-postcontent h2,
+.jajiRx-postcontent h2 a,
+.jajiRx-postcontent h2 a:link,
+.jajiRx-postcontent h2 a:visited,
+.jajiRx-postcontent h2 a:hover,
+.jajiRx-postcontent h3,
+.jajiRx-postcontent h3 a,
+.jajiRx-postcontent h3 a:link,
+.jajiRx-postcontent h3 a:visited,
+.jajiRx-postcontent h3 a:hover,
+.jajiRx-postcontent h4,
+.jajiRx-postcontent h4 a,
+.jajiRx-postcontent h4 a:link,
+.jajiRx-postcontent h4 a:visited,
+.jajiRx-postcontent h4 a:hover,
+.jajiRx-postcontent h5,
+.jajiRx-postcontent h5 a,
+.jajiRx-postcontent h5 a:link,
+.jajiRx-postcontent h5 a:visited,
+.jajiRx-postcontent h5 a:hover,
+.jajiRx-postcontent h6,
+.jajiRx-postcontent h6 a,
+.jajiRx-postcontent h6 a:link,
+.jajiRx-postcontent h6 a:visited,
+.jajiRx-postcontent h6 a:hover,
+.jajiRx-blockheader .t,
+.jajiRx-blockheader .t a,
+.jajiRx-blockheader .t a:link,
+.jajiRx-blockheader .t a:visited,
+.jajiRx-blockheader .t a:hover,
+.jajiRx-vmenublockheader .t,
+.jajiRx-vmenublockheader .t a,
+.jajiRx-vmenublockheader .t a:link,
+.jajiRx-vmenublockheader .t a:visited,
+.jajiRx-vmenublockheader .t a:hover,
+.jajiRx-headline,
+.jajiRx-headline a,
+.jajiRx-headline a:link,
+.jajiRx-headline a:visited,
+.jajiRx-headline a:hover,
+.jajiRx-slogan,
+.jajiRx-slogan a,
+.jajiRx-slogan a:link,
+.jajiRx-slogan a:visited,
+.jajiRx-slogan a:hover,
+.jajiRx-postheader,
+.jajiRx-postheader a,
+.jajiRx-postheader a:link,
+.jajiRx-postheader a:visited,
+.jajiRx-postheader a:hover {
+  font-size: 32px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.jajiRx-postcontent a,
+.jajiRx-postcontent a:link {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+  color: #5ba2dc;
+}
+
+.jajiRx-postcontent a:visited,
+.jajiRx-postcontent a.visited {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+  color: #80e619;
+}
+
+.jajiRx-postcontent a:hover,
+.jajiRx-postcontent a.hover {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-decoration: underline;
+  color: #5ba2dc;
+}
+
+.jajiRx-postcontent h1 {
+  color: #5ba2dc;
+  margin: 5px 0 0;
+  font-size: 24px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-blockcontent h1 {
+  margin: 5px 0 0;
+  font-size: 24px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-postcontent h1 a,
+.jajiRx-postcontent h1 a:link,
+.jajiRx-postcontent h1 a:hover,
+.jajiRx-postcontent h1 a:visited,
+.jajiRx-blockcontent h1 a,
+.jajiRx-blockcontent h1 a:link,
+.jajiRx-blockcontent h1 a:hover,
+.jajiRx-blockcontent h1 a:visited {
+  font-size: 24px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-postcontent h2 {
+  color: #9c9c9c;
+  margin: 20px 0 0;
+  font-size: 18px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-blockcontent h2 {
+  margin: 20px 0 0;
+  font-size: 18px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-postcontent h2 a,
+.jajiRx-postcontent h2 a:link,
+.jajiRx-postcontent h2 a:hover,
+.jajiRx-postcontent h2 a:visited,
+.jajiRx-blockcontent h2 a,
+.jajiRx-blockcontent h2 a:link,
+.jajiRx-blockcontent h2 a:hover,
+.jajiRx-blockcontent h2 a:visited {
+  font-size: 18px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-postcontent h3 {
+  color: #80e619;
+  margin: 19px 0;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-blockcontent h3 {
+  margin: 19px 0;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-postcontent h3 a,
+.jajiRx-postcontent h3 a:link,
+.jajiRx-postcontent h3 a:hover,
+.jajiRx-postcontent h3 a:visited,
+.jajiRx-blockcontent h3 a,
+.jajiRx-blockcontent h3 a:link,
+.jajiRx-blockcontent h3 a:hover,
+.jajiRx-blockcontent h3 a:visited {
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-postcontent h4 {
+  color: #292929;
+  margin: 20px 0 20px 20px;
+  font-size: 18px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.jajiRx-blockcontent h4 {
+  margin: 20px 0 20px 20px;
+  font-size: 18px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.jajiRx-postcontent h4 a,
+.jajiRx-postcontent h4 a:link,
+.jajiRx-postcontent h4 a:hover,
+.jajiRx-postcontent h4 a:visited,
+.jajiRx-blockcontent h4 a,
+.jajiRx-blockcontent h4 a:link,
+.jajiRx-blockcontent h4 a:hover,
+.jajiRx-blockcontent h4 a:visited {
+  font-size: 18px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.jajiRx-postcontent h5 {
+  color: #292929;
+  margin-top: 26px;
+  margin-bottom: 26px;
+  font-size: 13px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-blockcontent h5 {
+  margin-top: 26px;
+  margin-bottom: 26px;
+  font-size: 13px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-postcontent h5 a,
+.jajiRx-postcontent h5 a:link,
+.jajiRx-postcontent h5 a:hover,
+.jajiRx-postcontent h5 a:visited,
+.jajiRx-blockcontent h5 a,
+.jajiRx-blockcontent h5 a:link,
+.jajiRx-blockcontent h5 a:hover,
+.jajiRx-blockcontent h5 a:visited {
+  font-size: 13px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-postcontent h6 {
+  color: #616161;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 11px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-blockcontent h6 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 11px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-postcontent h6 a,
+.jajiRx-postcontent h6 a:link,
+.jajiRx-postcontent h6 a:hover,
+.jajiRx-postcontent h6 a:visited,
+.jajiRx-blockcontent h6 a,
+.jajiRx-blockcontent h6 a:link,
+.jajiRx-blockcontent h6 a:hover,
+.jajiRx-blockcontent h6 a:visited {
+  font-size: 11px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+header,
+footer,
+article,
+nav,
+#jajiRx-hmenu-bg,
+.jajiRx-sheet,
+.jajiRx-hmenu a,
+.jajiRx-vmenu a,
+.jajiRx-slidenavigator > a,
+.jajiRx-checkbox:before,
+.jajiRx-radiobutton:before {
+  -webkit-background-origin: border !important;
+  -moz-background-origin: border !important;
+  background-origin: border-box !important;
+}
+
+header,
+footer,
+article,
+nav,
+#jajiRx-hmenu-bg,
+.jajiRx-sheet,
+.jajiRx-slidenavigator > a,
+.jajiRx-checkbox:before,
+.jajiRx-radiobutton:before {
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/**
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ * https://github.com/necolas/normalize.css
+ */
+
+html {
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  min-width: 900px;
+  color: #294908;
+}
+
+.jajiRx-header:before,
+#jajiRx-header-bg:before,
+.jajiRx-layout-cell:before,
+.jajiRx-layout-wrapper:before,
+.jajiRx-footer:before,
+.jajiRx-nav:before,
+#jajiRx-hmenu-bg:before,
+.jajiRx-sheet:before {
+  width: 100%;
+  content: " ";
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.jajiRx-header:after,
+#jajiRx-header-bg:after,
+.jajiRx-layout-cell:after,
+.jajiRx-layout-wrapper:after,
+.jajiRx-footer:after,
+.jajiRx-nav:after,
+#jajiRx-hmenu-bg:after,
+.jajiRx-sheet:after,
+.cleared,
+.clearfix:after {
+  clear: both;
+  font: 0/0 serif;
+  display: block;
+  content: " ";
+}
+
+form {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+table.position {
+  position: relative;
+  width: 100%;
+  table-layout: fixed;
+}
+
+li h1,
+.jajiRx-postcontent li h1,
+.jajiRx-blockcontent li h1 {
+  margin: 1px;
+}
+li h2,
+.jajiRx-postcontent li h2,
+.jajiRx-blockcontent li h2 {
+  margin: 1px;
+}
+li h3,
+.jajiRx-postcontent li h3,
+.jajiRx-blockcontent li h3 {
+  margin: 1px;
+}
+li h4,
+.jajiRx-postcontent li h4,
+.jajiRx-blockcontent li h4 {
+  margin: 1px;
+}
+li h5,
+.jajiRx-postcontent li h5,
+.jajiRx-blockcontent li h5 {
+  margin: 1px;
+}
+li h6,
+.jajiRx-postcontent li h6,
+.jajiRx-blockcontent li h6 {
+  margin: 1px;
+}
+li p,
+.jajiRx-postcontent li p,
+.jajiRx-blockcontent li p {
+  margin: 1px;
+}
+
+.jajiRx-shapes {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.jajiRx-slider-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.jajiRx-slidenavigator > a {
+  display: inline-block;
+  vertical-align: middle;
+  outline-style: none;
+  font-size: 1px;
+}
+
+.jajiRx-slidenavigator > a:last-child {
+  margin-right: 0 !important;
+}
+
+.jajiRx-object0 {
+  display: block;
+  left: 100%;
+  margin-left: -629px;
+  position: absolute;
+  top: 50px;
+  width: 634px;
+  height: 355px;
+  background-image: url("images/object0.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.default-responsive .jajiRx-object0 {
+  display: none;
+}
+.jajiRx-object297373313 {
+  display: block;
+  left: 2.9%;
+  margin-left: -8px;
+  position: absolute;
+  top: 157px;
+  width: 297px;
+  height: 80px;
+  background-image: url("images/object297373313.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.default-responsive .jajiRx-object297373313 {
+  display: none;
+}
+
+.jajiRx-header {
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  height: 400px;
+  position: relative;
+  background-image: url("images/header.png");
+  background-position: center top;
+}
+
+.custom-responsive .jajiRx-header {
+  background-image: url("images/header.png");
+  background-position: center top;
+}
+
+.default-responsive .jajiRx-header,
+.default-responsive #jajiRx-header-bg {
+  background-image: url("images/header.png");
+  background-position: center center;
+  background-size: cover;
+}
+
+.jajiRx-header-inner {
+  position: relative;
+  width: 900px;
+  z-index: auto !important;
+  margin: 0 auto;
+}
+
+.jajiRx-header > .widget {
+  position: absolute;
+  z-index: 101;
+}
+
+.jajiRx-nav {
+  background: #1b517e;
+  background: -webkit-linear-gradient(
+      top,
+      rgba(34, 103, 160, 0.75) 0,
+      rgba(20, 60, 93, 0.75) 100%
+    )
+    no-repeat;
+  background: -moz-linear-gradient(
+      top,
+      rgba(34, 103, 160, 0.75) 0,
+      rgba(20, 60, 93, 0.75) 100%
+    )
+    no-repeat;
+  background: -o-linear-gradient(
+      top,
+      rgba(34, 103, 160, 0.75) 0,
+      rgba(20, 60, 93, 0.75) 100%
+    )
+    no-repeat;
+  background: -ms-linear-gradient(
+      top,
+      rgba(34, 103, 160, 0.75) 0,
+      rgba(20, 60, 93, 0.75) 100%
+    )
+    no-repeat;
+  -svg-background: linear-gradient(
+      top,
+      rgba(34, 103, 160, 0.75) 0,
+      rgba(20, 60, 93, 0.75) 100%
+    )
+    no-repeat;
+  background: linear-gradient(
+      to bottom,
+      rgba(34, 103, 160, 0.75) 0,
+      rgba(20, 60, 93, 0.75) 100%
+    )
+    no-repeat;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  padding: 6px;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  text-align: left;
+}
+
+ul.jajiRx-hmenu a,
+ul.jajiRx-hmenu a:link,
+ul.jajiRx-hmenu a:visited,
+ul.jajiRx-hmenu a:hover {
+  outline: none;
+  position: relative;
+  z-index: 11;
+}
+
+ul.jajiRx-hmenu,
+ul.jajiRx-hmenu ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style-type: none;
+}
+
+ul.jajiRx-hmenu li {
+  position: relative;
+  z-index: 5;
+  display: block;
+  float: left;
+  background: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+ul.jajiRx-hmenu li:hover {
+  z-index: 10000;
+  white-space: normal;
+}
+
+ul.jajiRx-hmenu:after,
+ul.jajiRx-hmenu ul:after {
+  content: ".";
+  height: 0;
+  display: block;
+  visibility: hidden;
+  overflow: hidden;
+  clear: both;
+}
+
+ul.jajiRx-hmenu,
+ul.jajiRx-hmenu ul {
+  min-height: 0;
+}
+
+ul.jajiRx-hmenu {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 3px;
+  padding-right: 3px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.jajiRx-nav:before {
+  content: " ";
+}
+
+nav.jajiRx-nav {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.desktop .jajiRx-nav {
+  padding-right: 11px;
+  left: 0px !important;
+  padding-left: 270px;
+  width: 100%;
+}
+
+.jajiRx-hmenu-extra1 {
+  position: relative;
+  display: block;
+  float: left;
+  width: auto;
+  height: auto;
+  background-position: center;
+}
+
+.jajiRx-hmenu-extra2 {
+  position: relative;
+  display: block;
+  float: right;
+  width: auto;
+  height: auto;
+  background-position: center;
+}
+
+.jajiRx-hmenu {
+  float: left;
+}
+
+.jajiRx-menuitemcontainer {
+  margin: 0 auto;
+}
+ul.jajiRx-hmenu > li {
+  margin-left: 8px;
+}
+ul.jajiRx-hmenu > li:first-child {
+  margin-left: 4px;
+}
+ul.jajiRx-hmenu > li:last-child,
+ul.jajiRx-hmenu > li.last-child {
+  margin-right: 4px;
+}
+
+ul.jajiRx-hmenu > li > a {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  padding: 0 40px;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  height: 33px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 33px;
+  text-align: center;
+}
+
+.jajiRx-hmenu > li > a,
+.jajiRx-hmenu > li > a:link,
+.jajiRx-hmenu > li > a:visited,
+.jajiRx-hmenu > li > a.active,
+.jajiRx-hmenu > li > a:hover {
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+ul.jajiRx-hmenu > li > a.active {
+  background: #73cf17;
+  background: -webkit-linear-gradient(top, #85e723 0, #80e619 14%, #61ae13 100%)
+    no-repeat;
+  background: -moz-linear-gradient(top, #85e723 0, #80e619 14%, #61ae13 100%)
+    no-repeat;
+  background: -o-linear-gradient(top, #85e723 0, #80e619 14%, #61ae13 100%)
+    no-repeat;
+  background: -ms-linear-gradient(top, #85e723 0, #80e619 14%, #61ae13 100%)
+    no-repeat;
+  -svg-background: linear-gradient(top, #85e723 0, #80e619 14%, #61ae13 100%)
+    no-repeat;
+  background: linear-gradient(to bottom, #85e723 0, #80e619 14%, #61ae13 100%)
+    no-repeat;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #42770d;
+  padding: 0 40px;
+  margin: 0 auto;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ul.jajiRx-hmenu > li > a:visited,
+ul.jajiRx-hmenu > li > a:hover,
+ul.jajiRx-hmenu > li:hover > a {
+  text-decoration: none;
+}
+
+ul.jajiRx-hmenu > li > a:hover,
+.desktop ul.jajiRx-hmenu > li:hover > a {
+  background: #6cace0;
+  background: -webkit-linear-gradient(top, #8dbfe7 0, #4e9bda 100%) no-repeat;
+  background: -moz-linear-gradient(top, #8dbfe7 0, #4e9bda 100%) no-repeat;
+  background: -o-linear-gradient(top, #8dbfe7 0, #4e9bda 100%) no-repeat;
+  background: -ms-linear-gradient(top, #8dbfe7 0, #4e9bda 100%) no-repeat;
+  -svg-background: linear-gradient(top, #8dbfe7 0, #4e9bda 100%) no-repeat;
+  background: linear-gradient(to bottom, #8dbfe7 0, #4e9bda 100%) no-repeat;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #6cace0;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+ul.jajiRx-hmenu > li > a:hover,
+.desktop ul.jajiRx-hmenu > li:hover > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ul.jajiRx-hmenu li li a {
+  background: #a3ed5a;
+  border: 1px solid #808080;
+  padding: 0 22px;
+  margin: 0 auto;
+}
+ul.jajiRx-hmenu li li {
+  float: none;
+  width: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.desktop ul.jajiRx-hmenu li li ul > li:first-child {
+  margin-top: 0;
+}
+
+ul.jajiRx-hmenu li li ul > li:last-child {
+  margin-bottom: 0;
+}
+
+.jajiRx-hmenu ul a {
+  display: block;
+  white-space: nowrap;
+  height: 24px;
+  min-width: 7em;
+  border: 1px solid transparent;
+  text-align: left;
+  line-height: 24px;
+  color: #000000;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+  margin: 0;
+}
+
+.jajiRx-hmenu li li a {
+  border-top-width: 0 !important;
+}
+.jajiRx-hmenu li li:hover > a {
+  border-top-width: 1px !important;
+}
+.jajiRx-hmenu ul > li:first-child > a {
+  border-top-width: 1px !important;
+}
+
+.jajiRx-hmenu ul a:link,
+.jajiRx-hmenu ul a:visited,
+.jajiRx-hmenu ul a.active,
+.jajiRx-hmenu ul a:hover {
+  text-align: left;
+  line-height: 24px;
+  color: #000000;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+  margin: 0;
+}
+
+ul.jajiRx-hmenu ul li a:hover,
+.desktop ul.jajiRx-hmenu ul li:hover > a {
+  background: #ababab;
+  border: 1px solid #6cace0;
+  margin: 0 auto;
+}
+.jajiRx-hmenu ul a:hover {
+  color: #000000;
+}
+
+.jajiRx-hmenu ul li a.jajiRx-hmenu-before-hovered {
+  border-bottom-width: 0 !important;
+}
+
+.desktop .jajiRx-hmenu ul li:hover > a {
+  color: #000000;
+}
+
+ul.jajiRx-hmenu ul:before {
+  background: #3d91d6;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  content: " ";
+  z-index: 1;
+}
+.desktop ul.jajiRx-hmenu li:hover > ul {
+  visibility: visible;
+  top: 100%;
+}
+.desktop ul.jajiRx-hmenu li li:hover > ul {
+  top: 0;
+  left: 100%;
+}
+
+ul.jajiRx-hmenu ul {
+  visibility: hidden;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  background-image: url("images/spacer.gif");
+}
+
+.desktop ul.jajiRx-hmenu > li > ul {
+  padding: 10px 30px 30px 30px;
+  margin: -10px 0 0 -30px;
+}
+
+.desktop ul.jajiRx-hmenu ul ul {
+  padding: 30px 30px 30px 10px;
+  margin: -30px 0 0 -10px;
+}
+
+.desktop ul.jajiRx-hmenu ul.jajiRx-hmenu-left-to-right {
+  right: auto;
+  left: 0;
+  margin: -10px 0 0 -30px;
+}
+
+.desktop ul.jajiRx-hmenu ul.jajiRx-hmenu-right-to-left {
+  left: auto;
+  right: 0;
+  margin: -10px -30px 0 0;
+}
+
+.desktop ul.jajiRx-hmenu li li:hover > ul.jajiRx-hmenu-left-to-right {
+  right: auto;
+  left: 100%;
+}
+.desktop ul.jajiRx-hmenu li li:hover > ul.jajiRx-hmenu-right-to-left {
+  left: auto;
+  right: 100%;
+}
+
+.desktop ul.jajiRx-hmenu ul ul.jajiRx-hmenu-left-to-right {
+  right: auto;
+  left: 0;
+  padding: 30px 30px 30px 10px;
+  margin: -30px 0 0 -10px;
+}
+
+.desktop ul.jajiRx-hmenu ul ul.jajiRx-hmenu-right-to-left {
+  left: auto;
+  right: 0;
+  padding: 30px 10px 30px 30px;
+  margin: -30px -10px 0 0;
+}
+
+.desktop ul.jajiRx-hmenu li ul > li:first-child {
+  margin-top: 0;
+}
+.desktop ul.jajiRx-hmenu li ul > li:last-child {
+  margin-bottom: 0;
+}
+
+.desktop ul.jajiRx-hmenu ul ul:before {
+  border-radius: 0;
+  top: 30px;
+  bottom: 30px;
+  right: 30px;
+  left: 10px;
+}
+
+.desktop ul.jajiRx-hmenu > li > ul:before {
+  top: 10px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+}
+
+.desktop ul.jajiRx-hmenu > li > ul.jajiRx-hmenu-left-to-right:before {
+  right: 30px;
+  left: 30px;
+}
+.desktop ul.jajiRx-hmenu > li > ul.jajiRx-hmenu-right-to-left:before {
+  right: 30px;
+  left: 30px;
+}
+.desktop ul.jajiRx-hmenu ul ul.jajiRx-hmenu-left-to-right:before {
+  right: 30px;
+  left: 10px;
+}
+.desktop ul.jajiRx-hmenu ul ul.jajiRx-hmenu-right-to-left:before {
+  right: 10px;
+  left: 30px;
+}
+
+.jajiRx-sheet {
+  background: #ffffff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.15);
+  padding: 5px;
+  margin: 0 auto;
+  position: relative;
+  cursor: auto;
+  width: 900px;
+  z-index: auto !important;
+  margin: 0 auto;
+  position: relative;
+  cursor: auto;
+
+  width: 100%;
+  z-index: auto !important;
+  border: 0px;
+  border-radius: 0px;
+  padding: 10px;
+}
+
+.jajiRx-layout-wrapper {
+  position: relative;
+  margin: 0 auto 0 auto;
+  z-index: auto !important;
+}
+
+.jajiRx-content-layout {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.jajiRx-content-layout-row {
+  display: table-row;
+}
+
+.jajiRx-layout-cell {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table-cell;
+  vertical-align: top;
+}
+
+/* need only for content layout in post content */
+.jajiRx-postcontent .jajiRx-content-layout {
+  border-collapse: collapse;
+}
+
+.jajiRx-breadcrumbs {
+  margin: 0 auto;
+}
+
+a.jajiRx-button,
+a.jajiRx-button:link,
+a:link.jajiRx-button:link,
+body a.jajiRx-button:link,
+a.jajiRx-button:visited,
+body a.jajiRx-button:visited,
+input.jajiRx-button,
+button.jajiRx-button {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 5px 0 0 !important;
+  overflow: visible;
+  cursor: pointer;
+  text-indent: 0;
+  line-height: 31px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.jajiRx-button img {
+  margin: 0;
+  vertical-align: middle;
+}
+
+.firefox2 .jajiRx-button {
+  display: block;
+  float: left;
+}
+
+input,
+select,
+textarea,
+a.jajiRx-search-button span {
+  vertical-align: middle;
+  font-size: 14px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.jajiRx-block select {
+  width: 96%;
+}
+
+input.jajiRx-button {
+  float: none !important;
+  -webkit-appearance: none;
+}
+
+.jajiRx-button.active,
+.jajiRx-button.active:hover {
+  background: #6cace0;
+  background: -webkit-linear-gradient(top, #96c3e9 0, #3d91d6 100%) no-repeat;
+  background: -moz-linear-gradient(top, #96c3e9 0, #3d91d6 100%) no-repeat;
+  background: -o-linear-gradient(top, #96c3e9 0, #3d91d6 100%) no-repeat;
+  background: -ms-linear-gradient(top, #96c3e9 0, #3d91d6 100%) no-repeat;
+  -svg-background: linear-gradient(top, #96c3e9 0, #3d91d6 100%) no-repeat;
+  background: linear-gradient(to bottom, #96c3e9 0, #3d91d6 100%) no-repeat;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+  border: 1px solid #3d91d6;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+.jajiRx-button.active,
+.jajiRx-button.active:hover {
+  color: #ffffff !important;
+}
+
+.jajiRx-button.hover,
+.jajiRx-button:hover {
+  background: #73cf17;
+  background: -webkit-linear-gradient(top, #8ce830 0, #80e619 25%, #59a112 100%)
+    no-repeat;
+  background: -moz-linear-gradient(top, #8ce830 0, #80e619 25%, #59a112 100%)
+    no-repeat;
+  background: -o-linear-gradient(top, #8ce830 0, #80e619 25%, #59a112 100%)
+    no-repeat;
+  background: -ms-linear-gradient(top, #8ce830 0, #80e619 25%, #59a112 100%)
+    no-repeat;
+  -svg-background: linear-gradient(top, #8ce830 0, #80e619 25%, #59a112 100%)
+    no-repeat;
+  background: linear-gradient(to bottom, #8ce830 0, #80e619 25%, #59a112 100%)
+    no-repeat;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+  border: 1px solid #73cf17;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+.jajiRx-button.hover,
+.jajiRx-button:hover {
+  color: #ffffff !important;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="number"],
+input[type="range"],
+input[type="tel"],
+input[type="time"],
+input[type="week"],
+textarea {
+  background: #f9fafb;
+  border: 1px solid rgba(140, 232, 48, 0.2);
+  margin: 0 auto;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="number"],
+input[type="range"],
+input[type="tel"],
+input[type="time"],
+input[type="week"],
+textarea {
+  width: auto;
+  padding: 8px 0;
+  color: #3d6e0c !important;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-weight: normal;
+  font-style: normal;
+  text-shadow: none;
+}
+input.jajiRx-error,
+textarea.jajiRx-error {
+  background: #f9fafb;
+  border: 1px solid #e2341d;
+  margin: 0 auto;
+}
+input.jajiRx-error,
+textarea.jajiRx-error {
+  color: #3d6e0c !important;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-weight: normal;
+  font-style: normal;
+}
+form.jajiRx-search input[type="text"] {
+  background: #f9fafb;
+  border-radius: 0;
+  border: 1px solid #ccd6e0;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #3d6e0c !important;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-weight: normal;
+  font-style: normal;
+}
+form.jajiRx-search {
+  background-image: none;
+  border: 0;
+  display: block;
+  position: relative;
+  top: 0;
+  padding: 0;
+  margin: 5px;
+  left: 0;
+  line-height: 0;
+}
+
+form.jajiRx-search input,
+a.jajiRx-search-button {
+  -webkit-appearance: none;
+  top: 0;
+  right: 0;
+}
+
+form.jajiRx-search > input,
+a.jajiRx-search-button {
+  bottom: 0;
+  left: 0;
+  vertical-align: middle;
+}
+
+form.jajiRx-search input[type="submit"],
+input.jajiRx-search-button,
+a.jajiRx-search-button {
+  background: #9ec8ea;
+  border-radius: 0;
+  margin: 0 auto;
+}
+form.jajiRx-search input[type="submit"],
+input.jajiRx-search-button,
+a.jajiRx-search-button {
+  position: absolute;
+  left: auto;
+  display: block;
+  border: 0;
+  top: 1px;
+  bottom: 1px;
+  right: 1px;
+  padding: 0 6px;
+  color: #1f5f93 !important;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-weight: normal;
+  font-style: normal;
+  cursor: pointer;
+}
+
+a.jajiRx-search-button span.jajiRx-search-button-text,
+a.jajiRx-search-button:after {
+  vertical-align: middle;
+}
+
+a.jajiRx-search-button:after {
+  display: inline-block;
+  content: " ";
+  height: 100%;
+}
+
+a.jajiRx-search-button,
+a.jajiRx-search-button span,
+a.jajiRx-search-button:visited,
+a.jajiRx-search-button.visited,
+a.jajiRx-search-button:hover,
+a.jajiRx-search-button.hover {
+  text-decoration: none;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+a.jajiRx-search-button {
+  line-height: 100% !important;
+}
+
+label.jajiRx-checkbox:before {
+  background: #f9fafb;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  border-width: 0;
+  margin: 0 auto;
+  width: 16px;
+  height: 16px;
+}
+label.jajiRx-checkbox {
+  cursor: pointer;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 16px;
+  display: inline-block;
+  color: #40730d !important;
+}
+
+.jajiRx-checkbox > input[type="checkbox"] {
+  margin: 0 5px 0 0;
+}
+
+label.jajiRx-checkbox.active:before {
+  background: #bfbfbf;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  border-width: 0;
+  margin: 0 auto;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+label.jajiRx-checkbox.hovered:before {
+  background: #dedede;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  border-width: 0;
+  margin: 0 auto;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+label.jajiRx-radiobutton:before {
+  background: #f9fafb;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border-width: 0;
+  margin: 0 auto;
+  width: 12px;
+  height: 12px;
+}
+label.jajiRx-radiobutton {
+  cursor: pointer;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 12px;
+  display: inline-block;
+  color: #40730d !important;
+}
+
+.jajiRx-radiobutton > input[type="radio"] {
+  vertical-align: baseline;
+  margin: 0 5px 0 0;
+}
+
+label.jajiRx-radiobutton.active:before {
+  background: #bfbfbf;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border-width: 0;
+  margin: 0 auto;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+
+label.jajiRx-radiobutton.hovered:before {
+  background: #dedede;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border-width: 0;
+  margin: 0 auto;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+
+.jajiRx-comments {
+  border-top: 1px dotted #ababab;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.jajiRx-comments h2 {
+  color: #292929;
+}
+
+.jajiRx-comment-inner {
+  background: #e2e8ee;
+  background: transparent;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  padding: 5px;
+  margin: 0 auto;
+  margin-left: 94px;
+}
+.jajiRx-comment-avatar {
+  float: left;
+  width: 80px;
+  height: 80px;
+  padding: 1px;
+  background: #fff;
+  border: 1px solid #e2e8ee;
+}
+
+.jajiRx-comment-avatar > img {
+  margin: 0 !important;
+  border: none !important;
+}
+
+.jajiRx-comment-content {
+  padding: 10px 0;
+  color: #164469;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-comment {
+  margin-top: 6px;
+}
+
+.jajiRx-comment:first-child {
+  margin-top: 0;
+}
+
+.jajiRx-comment-header {
+  color: #292929;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  line-height: 100%;
+}
+
+.jajiRx-comment-header a,
+.jajiRx-comment-header a:link,
+.jajiRx-comment-header a:visited,
+.jajiRx-comment-header a.visited,
+.jajiRx-comment-header a:hover,
+.jajiRx-comment-header a.hovered {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  line-height: 100%;
+}
+
+.jajiRx-comment-header a,
+.jajiRx-comment-header a:link {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  color: #878787;
+}
+
+.jajiRx-comment-header a:visited,
+.jajiRx-comment-header a.visited {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  color: #878787;
+}
+
+.jajiRx-comment-header a:hover,
+.jajiRx-comment-header a.hovered {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  color: #878787;
+}
+
+.jajiRx-comment-content a,
+.jajiRx-comment-content a:link,
+.jajiRx-comment-content a:visited,
+.jajiRx-comment-content a.visited,
+.jajiRx-comment-content a:hover,
+.jajiRx-comment-content a.hovered {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-comment-content a,
+.jajiRx-comment-content a:link {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  color: #69bc15;
+}
+
+.jajiRx-comment-content a:visited,
+.jajiRx-comment-content a.visited {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  color: #1d5a8b;
+}
+
+.jajiRx-comment-content a:hover,
+.jajiRx-comment-content a.hovered {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  color: #69bc15;
+}
+
+.jajiRx-pager {
+  background: #eff2f5;
+  background: -webkit-linear-gradient(top, #ffffff 0, #93a8be 100%) no-repeat;
+  background: -moz-linear-gradient(top, #ffffff 0, #93a8be 100%) no-repeat;
+  background: -o-linear-gradient(top, #ffffff 0, #93a8be 100%) no-repeat;
+  background: -ms-linear-gradient(top, #ffffff 0, #93a8be 100%) no-repeat;
+  -svg-background: linear-gradient(top, #ffffff 0, #93a8be 100%) no-repeat;
+  background: linear-gradient(to bottom, #ffffff 0, #93a8be 100%) no-repeat;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #ababab;
+  padding: 5px;
+}
+
+.jajiRx-pager > *:last-child {
+  margin-right: 0 !important;
+}
+
+.jajiRx-pager > span {
+  cursor: default;
+}
+
+.jajiRx-pager > * {
+  background: #dedede;
+  background: -webkit-linear-gradient(top, #ffffff 0, #ababab 100%) no-repeat;
+  background: -moz-linear-gradient(top, #ffffff 0, #ababab 100%) no-repeat;
+  background: -o-linear-gradient(top, #ffffff 0, #ababab 100%) no-repeat;
+  background: -ms-linear-gradient(top, #ffffff 0, #ababab 100%) no-repeat;
+  -svg-background: linear-gradient(top, #ffffff 0, #ababab 100%) no-repeat;
+  background: linear-gradient(to bottom, #ffffff 0, #ababab 100%) no-repeat;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #dedede;
+  padding: 7px;
+  margin: 0 4px 0 auto;
+  line-height: normal;
+  position: relative;
+  display: inline-block;
+  margin-left: 0;
+}
+
+.jajiRx-pager a:link,
+.jajiRx-pager a:visited,
+.jajiRx-pager .active {
+  line-height: normal;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+  color: #212121;
+}
+
+.jajiRx-pager .active {
+  background: #b6bfc9;
+  background: -webkit-linear-gradient(top, #e5e8eb 0, #8796a6 100%) no-repeat;
+  background: -moz-linear-gradient(top, #e5e8eb 0, #8796a6 100%) no-repeat;
+  background: -o-linear-gradient(top, #e5e8eb 0, #8796a6 100%) no-repeat;
+  background: -ms-linear-gradient(top, #e5e8eb 0, #8796a6 100%) no-repeat;
+  -svg-background: linear-gradient(top, #e5e8eb 0, #8796a6 100%) no-repeat;
+  background: linear-gradient(to bottom, #e5e8eb 0, #8796a6 100%) no-repeat;
+  border: 1px solid #dedede;
+  padding: 7px;
+  margin: 0 4px 0 auto;
+  color: #ffffff;
+}
+
+.jajiRx-pager .more {
+  background: #dedede;
+  background: -webkit-linear-gradient(top, #ffffff 0, #ababab 100%) no-repeat;
+  background: -moz-linear-gradient(top, #ffffff 0, #ababab 100%) no-repeat;
+  background: -o-linear-gradient(top, #ffffff 0, #ababab 100%) no-repeat;
+  background: -ms-linear-gradient(top, #ffffff 0, #ababab 100%) no-repeat;
+  -svg-background: linear-gradient(top, #ffffff 0, #ababab 100%) no-repeat;
+  background: linear-gradient(to bottom, #ffffff 0, #ababab 100%) no-repeat;
+  border: 1px solid #dedede;
+  margin: 0 4px 0 auto;
+}
+.jajiRx-pager a.more:link,
+.jajiRx-pager a.more:visited {
+  color: #213c07;
+}
+.jajiRx-pager a:hover {
+  background: #bfbfbf;
+  background: -webkit-linear-gradient(top, #e8e8e8 0, #969696 100%) no-repeat;
+  background: -moz-linear-gradient(top, #e8e8e8 0, #969696 100%) no-repeat;
+  background: -o-linear-gradient(top, #e8e8e8 0, #969696 100%) no-repeat;
+  background: -ms-linear-gradient(top, #e8e8e8 0, #969696 100%) no-repeat;
+  -svg-background: linear-gradient(top, #e8e8e8 0, #969696 100%) no-repeat;
+  background: linear-gradient(to bottom, #e8e8e8 0, #969696 100%) no-repeat;
+  border: 1px solid #dedede;
+  padding: 7px;
+  margin: 0 4px 0 auto;
+}
+.jajiRx-pager a:hover,
+.jajiRx-pager a.more:hover {
+  color: #262626;
+}
+.jajiRx-pager > *:after {
+  margin: 0 0 0 auto;
+  display: inline-block;
+  position: absolute;
+  content: " ";
+  top: 0;
+  width: 0;
+  height: 100%;
+  right: 0;
+  text-decoration: none;
+}
+
+.jajiRx-pager > *:last-child:after {
+  display: none;
+}
+
+.jajiRx-commentsform {
+  background: #e2e8ee;
+  background: transparent;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 25px;
+  color: #292929;
+}
+
+.jajiRx-commentsform h2 {
+  padding-bottom: 10px;
+  margin: 0;
+  color: #292929;
+}
+
+.jajiRx-commentsform label {
+  display: inline-block;
+  line-height: 25px;
+}
+
+.jajiRx-commentsform input:not([type="submit"]),
+.jajiRx-commentsform textarea {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+}
+
+.jajiRx-commentsform .form-submit {
+  margin-top: 10px;
+}
+.jajiRx-block {
+  margin: 20px;
+}
+div.jajiRx-block img {
+  border: none;
+  margin: 0;
+}
+
+.jajiRx-blockcontent {
+  margin: 0 auto;
+  color: #878787;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+}
+.jajiRx-blockcontent table,
+.jajiRx-blockcontent li,
+.jajiRx-blockcontent a,
+.jajiRx-blockcontent a:link,
+.jajiRx-blockcontent a:visited,
+.jajiRx-blockcontent a:hover {
+  color: #878787;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-blockcontent p {
+  margin: 6px 0;
+}
+
+.jajiRx-blockcontent a,
+.jajiRx-blockcontent a:link {
+  color: #89bce6;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-decoration: underline;
+}
+
+.jajiRx-blockcontent a:visited,
+.jajiRx-blockcontent a.visited {
+  color: #b8f17e;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+}
+
+.jajiRx-blockcontent a:hover,
+.jajiRx-blockcontent a.hover {
+  color: #808080;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+}
+.jajiRx-block ul > li:before {
+  content: url("images/blockbullets.png");
+  margin-right: 6px;
+  bottom: 2px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0;
+  line-height: 0;
+  margin-left: -12px;
+}
+.opera .jajiRx-block ul > li:before {
+  /* Vertical-align:middle in Opera doesn't need additional offset */
+  bottom: 0;
+}
+
+.jajiRx-block li {
+  font-size: 13px;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  line-height: 125%;
+  color: #549711;
+}
+
+.jajiRx-block ul > li,
+.jajiRx-block ol {
+  padding: 0;
+}
+
+.jajiRx-block ul > li {
+  padding-left: 12px;
+}
+
+.jajiRx-post {
+  padding: 15px;
+}
+a img {
+  border: 0;
+}
+
+.jajiRx-article img,
+img.jajiRx-article,
+.jajiRx-block img,
+.jajiRx-footer img {
+  margin: 0 0 0 0;
+}
+
+.jajiRx-metadata-icons img {
+  border: none;
+  vertical-align: middle;
+  margin: 2px;
+}
+
+.jajiRx-article table,
+table.jajiRx-article {
+  border-collapse: collapse;
+  margin: 1px;
+}
+
+.jajiRx-post .jajiRx-content-layout-br {
+  height: 0;
+}
+
+.jajiRx-article th,
+.jajiRx-article td {
+  padding: 2px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.jajiRx-article th {
+  text-align: center;
+  vertical-align: middle;
+  padding: 7px;
+}
+
+pre {
+  overflow: auto;
+  padding: 0.1em;
+}
+
+.preview-cms-logo {
+  border: 0;
+  margin: 1em 1em 0 0;
+  float: left;
+}
+
+.image-caption-wrapper {
+  padding: 0 0 0 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.image-caption-wrapper img {
+  margin: 0 !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.image-caption-wrapper div.jajiRx-collage {
+  margin: 0 !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.image-caption-wrapper p {
+  font-size: 80%;
+  text-align: right;
+  margin: 0;
+}
+
+.jajiRx-postheader {
+  color: #256fad;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 24px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-postheader a,
+.jajiRx-postheader a:link,
+.jajiRx-postheader a:visited,
+.jajiRx-postheader a.visited,
+.jajiRx-postheader a:hover,
+.jajiRx-postheader a.hovered {
+  font-size: 24px;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-postheader a,
+.jajiRx-postheader a:link {
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+  text-align: left;
+  color: #287abd;
+}
+
+.jajiRx-postheader a:visited,
+.jajiRx-postheader a.visited {
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+  text-align: left;
+  color: #73cf17;
+}
+
+.jajiRx-postheader a:hover,
+.jajiRx-postheader a.hovered {
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+  text-align: left;
+  color: #5ba2dc;
+}
+
+.jajiRx-postheadericons,
+.jajiRx-postheadericons a,
+.jajiRx-postheadericons a:link,
+.jajiRx-postheadericons a:visited,
+.jajiRx-postheadericons a:hover {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  color: #40730d;
+}
+
+.jajiRx-postheadericons {
+  padding: 1px;
+}
+
+.jajiRx-postheadericons a,
+.jajiRx-postheadericons a:link {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+  color: #595959;
+}
+
+.jajiRx-postheadericons a:visited,
+.jajiRx-postheadericons a.visited {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-weight: normal;
+  font-style: italic;
+  text-decoration: none;
+  color: #595959;
+}
+
+.jajiRx-postheadericons a:hover,
+.jajiRx-postheadericons a.hover {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-weight: normal;
+  font-style: italic;
+  text-decoration: underline;
+  color: #757575;
+}
+
+.jajiRx-postpdficon:before {
+  content: url("images/postpdficon.png");
+  margin-right: 6px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0;
+  line-height: 0;
+  bottom: auto;
+}
+.opera .jajiRx-postpdficon:before {
+  /* Vertical-align:middle in Opera doesn't need additional offset */
+  bottom: 0;
+}
+
+.jajiRx-postprinticon:before {
+  content: url("images/postprinticon.png");
+  margin-right: 6px;
+  bottom: 2px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0;
+  line-height: 0;
+}
+.opera .jajiRx-postprinticon:before {
+  /* Vertical-align:middle in Opera doesn't need additional offset */
+  bottom: 0;
+}
+
+.jajiRx-postemailicon:before {
+  content: url("images/postemailicon.png");
+  margin-right: 6px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0;
+  line-height: 0;
+  bottom: auto;
+}
+.opera .jajiRx-postemailicon:before {
+  /* Vertical-align:middle in Opera doesn't need additional offset */
+  bottom: 0;
+}
+
+.jajiRx-postcontent ul > li:before,
+.jajiRx-post ul > li:before,
+.jajiRx-textblock ul > li:before {
+  content: url("images/postbullets.png");
+  margin-right: 6px;
+  bottom: 2px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0;
+  line-height: 0;
+}
+.opera .jajiRx-postcontent ul > li:before,
+.opera .jajiRx-post ul > li:before,
+.opera .jajiRx-textblock ul > li:before {
+  /* Vertical-align:middle in Opera doesn't need additional offset */
+  bottom: 0;
+}
+
+.jajiRx-postcontent li,
+.jajiRx-post li,
+.jajiRx-textblock li {
+  font-size: 13px;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  color: #40730d;
+  margin: 0 0 0 26px;
+}
+
+.jajiRx-postcontent ul > li,
+.jajiRx-post ul > li,
+.jajiRx-textblock ul > li,
+.jajiRx-postcontent ol,
+.jajiRx-post ol,
+.jajiRx-textblock ol {
+  padding: 0;
+}
+
+.jajiRx-postcontent ul > li,
+.jajiRx-post ul > li,
+.jajiRx-textblock ul > li {
+  padding-left: 19px;
+}
+
+.jajiRx-postcontent ul > li:before,
+.jajiRx-post ul > li:before,
+.jajiRx-textblock ul > li:before {
+  margin-left: -19px;
+}
+
+.jajiRx-postcontent ol,
+.jajiRx-post ol,
+.jajiRx-textblock ol,
+.jajiRx-postcontent ul,
+.jajiRx-post ul,
+.jajiRx-textblock ul {
+  margin: 1em 0 1em 26px;
+}
+
+.jajiRx-postcontent li ol,
+.jajiRx-post li ol,
+.jajiRx-textblock li ol,
+.jajiRx-postcontent li ul,
+.jajiRx-post li ul,
+.jajiRx-textblock li ul {
+  margin: 0.5em 0 0.5em 26px;
+}
+
+.jajiRx-postcontent li,
+.jajiRx-post li,
+.jajiRx-textblock li {
+  margin: 0 0 0 0;
+}
+
+.jajiRx-postcontent ol > li,
+.jajiRx-post ol > li,
+.jajiRx-textblock ol > li {
+  /* overrides overflow for "ul li" and sets the default value */
+  overflow: visible;
+}
+
+.jajiRx-postcontent ul > li,
+.jajiRx-post ul > li,
+.jajiRx-textblock ul > li {
+  /* makes "ul li" not to align behind the image if they are in the same line */
+  overflow-x: visible;
+  overflow-y: hidden;
+}
+
+blockquote {
+  background: #c4f395 url("images/postquote.png") no-repeat scroll;
+  padding: 0 0 0 28px;
+  margin: 10px 10px 10px 50px;
+  color: #294908;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-weight: normal;
+  font-style: italic;
+  text-align: left;
+  /* makes block not to align behind the image if they are in the same line */
+  overflow: auto;
+  clear: both;
+}
+blockquote a,
+.jajiRx-postcontent blockquote a,
+.jajiRx-blockcontent blockquote a,
+.jajiRx-footer blockquote a,
+blockquote a:link,
+.jajiRx-postcontent blockquote a:link,
+.jajiRx-blockcontent blockquote a:link,
+.jajiRx-footer blockquote a:link,
+blockquote a:visited,
+.jajiRx-postcontent blockquote a:visited,
+.jajiRx-blockcontent blockquote a:visited,
+.jajiRx-footer blockquote a:visited,
+blockquote a:hover,
+.jajiRx-postcontent blockquote a:hover,
+.jajiRx-blockcontent blockquote a:hover,
+.jajiRx-footer blockquote a:hover {
+  color: #294908;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-weight: normal;
+  font-style: italic;
+  text-align: left;
+}
+
+/* Override native 'p' margins*/
+blockquote p,
+.jajiRx-postcontent blockquote p,
+.jajiRx-blockcontent blockquote p,
+.jajiRx-footer blockquote p {
+  margin: 0;
+  margin: 2px 0 2px 15px;
+}
+
+.jajiRx-postfootericons,
+.jajiRx-postfootericons a,
+.jajiRx-postfootericons a:link,
+.jajiRx-postfootericons a:visited,
+.jajiRx-postfootericons a:hover {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  color: #40730d;
+}
+
+.jajiRx-postfootericons {
+  padding: 1px;
+}
+
+.jajiRx-postfootericons a,
+.jajiRx-postfootericons a:link {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+  color: #595959;
+}
+
+.jajiRx-postfootericons a:visited,
+.jajiRx-postfootericons a.visited {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+  color: #595959;
+}
+
+.jajiRx-postfootericons a:hover,
+.jajiRx-postfootericons a.hover {
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+  color: #757575;
+}
+
+.jajiRx-footer {
+  background: #dedede;
+  background: transparent;
+  margin: 0 auto;
+  position: relative;
+  color: #6b6b6b;
+  font-size: 11px;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-align: left;
+  padding: 0;
+}
+
+.jajiRx-footer a,
+.jajiRx-footer a:link,
+.jajiRx-footer a:visited,
+.jajiRx-footer a:hover,
+.jajiRx-footer td,
+.jajiRx-footer th,
+.jajiRx-footer caption {
+  color: #6b6b6b;
+  font-size: 11px;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-footer p {
+  margin: 0 0 0 20px;
+  padding: 0;
+  text-align: left;
+}
+
+.jajiRx-footer a,
+.jajiRx-footer a:link {
+  color: #3d91d6;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+}
+
+.jajiRx-footer a:visited {
+  color: #3d91d6;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-decoration: none;
+}
+
+.jajiRx-footer a:hover {
+  color: #5fa4dd;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  text-decoration: underline;
+}
+
+.jajiRx-footer h1 {
+  color: #949494;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-footer h2 {
+  color: #ababab;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-footer h3 {
+  color: #8ce830;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-footer h4 {
+  color: #9ec8ea;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-footer h5 {
+  color: #9ec8ea;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-footer h6 {
+  color: #9ec8ea;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+}
+
+.jajiRx-footer img {
+  border: none;
+  margin: 0;
+}
+
+.jajiRx-footer-inner {
+  margin: 0 auto;
+  width: 900px;
+  padding: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.jajiRx-rss-tag-icon {
+  background: url("images/footerrssicon.png") no-repeat scroll;
+  margin: 0 auto;
+  min-height: 32px;
+  min-width: 32px;
+  display: inline-block;
+  text-indent: 35px;
+  background-position: left center;
+  vertical-align: middle;
+}
+
+.jajiRx-rss-tag-icon:empty {
+  vertical-align: middle;
+}
+
+.jajiRx-facebook-tag-icon {
+  background: url("images/footerfacebookicon.png") no-repeat scroll;
+  margin: 0 auto;
+  min-height: 32px;
+  min-width: 32px;
+  display: inline-block;
+  text-indent: 35px;
+  background-position: left center;
+  vertical-align: middle;
+}
+
+.jajiRx-facebook-tag-icon:empty {
+  vertical-align: middle;
+}
+
+.jajiRx-twitter-tag-icon {
+  background: url("images/footertwittericon.png") no-repeat scroll;
+  margin: 0 auto;
+  min-height: 32px;
+  min-width: 32px;
+  display: inline-block;
+  text-indent: 35px;
+  background-position: left center;
+  vertical-align: middle;
+}
+
+.jajiRx-twitter-tag-icon:empty {
+  vertical-align: middle;
+}
+
+.jajiRx-tumblr-tag-icon {
+  background: url("images/tumblricon.png") no-repeat scroll;
+  margin: 0 auto;
+  min-height: 32px;
+  min-width: 32px;
+  display: inline-block;
+  text-indent: 35px;
+  background-position: left center;
+  vertical-align: middle;
+}
+
+.jajiRx-tumblr-tag-icon:empty {
+  vertical-align: middle;
+}
+
+.jajiRx-pinterest-tag-icon {
+  background: url("images/pinteresticon.png") no-repeat scroll;
+  margin: 0 auto;
+  min-height: 32px;
+  min-width: 32px;
+  display: inline-block;
+  text-indent: 35px;
+  background-position: left center;
+  vertical-align: middle;
+}
+
+.jajiRx-pinterest-tag-icon:empty {
+  vertical-align: middle;
+}
+
+.jajiRx-vimeo-tag-icon {
+  background: url("images/vimeoicon.png") no-repeat scroll;
+  margin: 0 auto;
+  min-height: 33px;
+  min-width: 32px;
+  display: inline-block;
+  text-indent: 35px;
+  background-position: left center;
+  vertical-align: middle;
+}
+
+.jajiRx-vimeo-tag-icon:empty {
+  vertical-align: middle;
+}
+
+.jajiRx-youtube-tag-icon {
+  background: url("images/youtubeicon.png") no-repeat scroll;
+  margin: 0 auto;
+  min-height: 32px;
+  min-width: 32px;
+  display: inline-block;
+  text-indent: 35px;
+  background-position: left center;
+  vertical-align: middle;
+}
+
+.jajiRx-youtube-tag-icon:empty {
+  vertical-align: middle;
+}
+
+.jajiRx-linkedin-tag-icon {
+  background: url("images/linkedinicon.png") no-repeat scroll;
+  margin: 0 auto;
+  min-height: 32px;
+  min-width: 32px;
+  display: inline-block;
+  text-indent: 35px;
+  background-position: left center;
+  vertical-align: middle;
+}
+
+.jajiRx-linkedin-tag-icon:empty {
+  vertical-align: middle;
+}
+
+.jajiRx-footer li {
+  font-size: 13px;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  line-height: 125%;
+  color: #42770d;
+}
+
+.jajiRx-page-footer,
+.jajiRx-page-footer a,
+.jajiRx-page-footer a:link,
+.jajiRx-page-footer a:visited,
+.jajiRx-page-footer a:hover {
+  font-family: Arial;
+  font-size: 10px;
+  letter-spacing: normal;
+  word-spacing: normal;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: underline;
+  color: #2c85ce;
+}
+
+.jajiRx-page-footer {
+  position: relative;
+  z-index: auto !important;
+  padding: 1em;
+  text-align: center !important;
+  text-decoration: none;
+  color: #9e9e9e;
+}
+
+.jajiRx-lightbox-wrapper {
+  background: #333;
+  background: rgba(0, 0, 0, 0.8);
+  bottom: 0;
+  left: 0;
+  padding: 0 100px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+  z-index: 1000000;
+}
+
+.jajiRx-lightbox,
+.jajiRx-lightbox-wrapper .jajiRx-lightbox-image {
+  cursor: pointer;
+}
+
+.jajiRx-lightbox-wrapper .jajiRx-lightbox-image {
+  border: 6px solid #fff;
+  border-radius: 3px;
+  display: none;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.jajiRx-lightbox-wrapper .jajiRx-lightbox-image.active {
+  display: inline-block;
+}
+
+.jajiRx-lightbox-wrapper .lightbox-error {
+  background: #fff;
+  border: 1px solid #b4b4b4;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #333;
+  height: 80px;
+  opacity: 0.95;
+  padding: 20px;
+  position: fixed;
+  width: 300px;
+  z-index: 100;
+}
+
+.jajiRx-lightbox-wrapper .loading {
+  background: #fff url("images/preloader-01.gif") center center no-repeat;
+  border: 1px solid #b4b4b4;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #333;
+  height: 32px;
+  opacity: 0.5;
+  padding: 10px;
+  position: fixed;
+  width: 32px;
+  z-index: 10100;
+}
+
+.jajiRx-lightbox-wrapper .arrow {
+  cursor: pointer;
+  height: 100px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  position: fixed;
+  width: 82px;
+  z-index: 10003;
+}
+
+.jajiRx-lightbox-wrapper .arrow.left {
+  left: 9px;
+}
+
+.jajiRx-lightbox-wrapper .arrow.right {
+  right: 9px;
+}
+
+.jajiRx-lightbox-wrapper .arrow:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.jajiRx-lightbox-wrapper .arrow.disabled {
+  display: none;
+}
+
+.jajiRx-lightbox-wrapper .arrow-t,
+.jajiRx-lightbox-wrapper .arrow-b {
+  background-color: #fff;
+  border-radius: 3px;
+  height: 6px;
+  left: 26px;
+  position: relative;
+  width: 30px;
+}
+
+.jajiRx-lightbox-wrapper .arrow-t {
+  top: 38px;
+}
+
+.jajiRx-lightbox-wrapper .arrow-b {
+  top: 50px;
+}
+
+.jajiRx-lightbox-wrapper .close {
+  cursor: pointer;
+  height: 22px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  position: fixed;
+  right: 39px;
+  top: 30px;
+  width: 22px;
+  z-index: 10003;
+}
+
+.jajiRx-lightbox-wrapper .close:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.jajiRx-lightbox-wrapper .close .cw,
+.jajiRx-lightbox-wrapper .close .ccw {
+  background-color: #fff;
+  border-radius: 3px;
+  height: 6px;
+  position: absolute;
+  left: -4px;
+  top: 8px;
+  width: 30px;
+}
+
+.jajiRx-lightbox-wrapper .cw {
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(45deg);
+  /* Opera */
+  -moz-transform: rotate(45deg);
+  /* Firefox */
+}
+
+.jajiRx-lightbox-wrapper .ccw {
+  transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-45deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(-45deg);
+  /* Opera */
+  -moz-transform: rotate(-45deg);
+  /* Firefox */
+}
+
+.jajiRx-lightbox-wrapper .close-alt,
+.jajiRx-lightbox-wrapper .arrow-right-alt,
+.jajiRx-lightbox-wrapper .arrow-left-alt {
+  color: #fff;
+  display: none;
+  font-size: 2.5em;
+  line-height: 100%;
+}
+
+.ie8 .jajiRx-lightbox-wrapper .close-alt,
+.ie8 .jajiRx-lightbox-wrapper .arrow-right-alt,
+.ie8 .jajiRx-lightbox-wrapper .arrow-left-alt {
+  display: block;
+}
+
+.ie8 .jajiRx-lightbox-wrapper .cw,
+.ie8 .jajiRx-lightbox-wrapper .ccw {
+  display: none;
+}
+
+.jajiRx-content-layout .jajiRx-content {
+  margin: 0 auto;
+}
+
+.jajiRx-content-layout .jajiRx-sidebar1 {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+  margin: 0 auto;
+  width: 250px;
+}
+
+/* Begin Additional CSS Styles */
+.jajiRx-blockheader .t,
+.jajiRx-vmenublockheader .t {
+  white-space: nowrap;
+}
+/* End Additional CSS Styles */
+
+.login-menu:hover .menu-dropdown {
+  visibility: visible !important;
+  display: block !important;
+}
+.menu-dropdown {
+  margin-top: 0px !important;
+  background: #537b9c;
+  background-image: none;
+  padding: 10px !important;
+  margin-left: 1px !important;
+}
+.menu-dropdown a {
+  background-color: #537b9c !important;
+  border: #537b9c !important;
+  color: white !important;
+  font-size: 16px !important;
+  font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif !important;
+  font-weight: bold !important;
+  font-style: normal !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  text-align: left !important;
+}
+@media screen and (max-width: 900px) {
+  .menu-dropdown {
+    margin-top: 0px !important;
+  }
+  .desktop .jajiRx-nav {
+    padding-left: 11px;
+  }
+}

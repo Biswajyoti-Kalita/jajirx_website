@@ -1,0 +1,114 @@
+/* Created by Artisteer v4.3.0.60745 */
+
+.jajiRx-header, #jajiRx-header-bg, .jajiRx-layout-cell, .jajiRx-layout-wrapper, .jajiRx-footer, .jajiRx-nav, #jajiRx-hmenu-bg, .jajiRx-sheet,
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+
+.jajiRx-textblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.jajiRx-header
+{
+   z-index: 1;
+   background-image: [headerimage];
+   background-position: [headerposition];
+}
+
+#jajiRx-header-bg 
+{
+   display: none;
+}
+
+.jajiRx-hmenu>li, .jajiRx-hmenu>li>a
+{
+   display: inline !important;
+   zoom: 1;
+   float: none !important;
+   vertical-align: top;
+}
+ul.jajiRx-hmenu, ul.jajiRx-hmenu ul {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+#jajiRx-hmenu-bg 
+{
+   display: none;
+}
+
+ul.jajiRx-hmenu>li:first-child {
+   padding-right:8px;
+}
+
+ul.jajiRx-hmenu ul{
+   background-color: #3D91D6 !important;
+}
+
+.jajiRx-content-layout, .jajiRx-content-layout-row, .jajiRx-layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.jajiRx-layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.jajiRx-search>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.jajiRx-search div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.jajiRx-search>input[type="text"] 
+{
+   margin :0;
+}
+
+form.jajiRx-search
+{
+   zoom: 1;
+}
+.jajiRx-postheadericons span{
+   zoom: 1;
+}
+.jajiRx-postcontent {
+   height: 1%;
+}
+
+.jajiRx-postfootericons span{
+   zoom: 1;
+}
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.jajiRx-sidebar1 
+{
+   width: auto;
+   float:none;
+}
+

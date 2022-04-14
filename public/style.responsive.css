@@ -1,0 +1,504 @@
+/* Created by Artisteer v4.3.0.60745 */
+
+.responsive body {
+  min-width: 240px;
+}
+
+.responsive img {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.responsive .jajiRx-content-layout img,
+.responsive .jajiRx-content-layout video {
+  max-width: 100%;
+  height: auto !important;
+}
+
+.responsive.responsive-phone .jajiRx-content-layout img {
+  margin: 1%;
+}
+
+.responsive.responsive-phone .jajiRx-collage,
+.responsive.responsive-tablet .jajiRx-collage {
+  margin: 0 !important;
+}
+
+.responsive .jajiRx-content-layout .jajiRx-sidebar0,
+.responsive .jajiRx-content-layout .jajiRx-sidebar1,
+.responsive .jajiRx-content-layout .jajiRx-sidebar2 {
+  width: auto !important;
+}
+
+.responsive .jajiRx-content-layout,
+.responsive .jajiRx-content-layout-row,
+.responsive .jajiRx-layout-cell {
+  display: block;
+}
+
+.responsive .jajiRx-content-layout,
+.responsive .jajiRx-content-layout-row {
+  padding: 0;
+}
+
+.responsive .image-caption-wrapper {
+  width: auto;
+}
+
+.responsive.responsive-tablet .jajiRx-vmenublock,
+.responsive.responsive-tablet .jajiRx-block {
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 48%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.responsive .jajiRx-responsive-embed {
+  height: 0;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  position: relative;
+}
+
+.responsive .jajiRx-responsive-embed iframe,
+.responsive .jajiRx-responsive-embed object,
+.responsive .jajiRx-responsive-embed embed {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.responsive .jajiRx-header {
+  width: auto !important;
+  max-width: none !important;
+  min-height: 100px !important;
+  min-width: 0 !important;
+  text-align: center;
+}
+
+.default-responsive .jajiRx-header {
+  height: auto;
+}
+
+.default-responsive .jajiRx-header * {
+  position: relative;
+  text-align: center;
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  -o-transform: none !important;
+  -ms-transform: none !important;
+  transform: none !important;
+}
+
+.default-responsive .jajiRx-header .jajiRx-headline,
+.default-responsive .jajiRx-header .jajiRx-slogan {
+  display: block !important;
+  top: 0 !important;
+  left: 0 !important;
+  margin: 2% !important;
+  text-align: center !important;
+}
+
+.default-responsive .jajiRx-header .jajiRx-headline a,
+.default-responsive .jajiRx-header .jajiRx-slogan {
+  white-space: normal !important;
+}
+
+.default-responsive .jajiRx-header .jajiRx-logo {
+  display: inline-block;
+  margin: auto !important;
+  left: auto;
+  top: auto !important;
+  width: auto;
+  height: auto;
+}
+
+.responsive .jajiRx-header .jajiRx-slidenavigator {
+  position: absolute;
+}
+
+.default-responsive .jajiRx-header .jajiRx-positioncontrol {
+  display: block !important;
+  position: relative !important;
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+  margin: 2% auto !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+.responsive .jajiRx-header #jajiRx-flash-area {
+  display: none;
+}
+
+/* Search and other elements in header element directly */
+.default-responsive .jajiRx-header > .jajiRx-textblock {
+  position: relative !important;
+  display: block !important;
+  margin: 1% auto !important;
+  width: 75% !important;
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+}
+
+.default-responsive .jajiRx-header .jajiRx-textblock {
+  position: relative !important;
+  display: block !important;
+  margin: auto !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: auto !important;
+  height: auto !important;
+  width: auto;
+  background-image: none;
+}
+
+/* '.jajiRx-header *' used noram align, but for '.jajiRx-textblock *' we must force align because of preview */
+.responsive .jajiRx-header .jajiRx-textblock * {
+  text-align: center !important;
+}
+
+.default-responsive .jajiRx-header .jajiRx-shapes > .jajiRx-textblock,
+.default-responsive .jajiRx-header .jajiRx-slide-item > .jajiRx-textblock {
+  display: none !important;
+}
+
+.default-responsive .jajiRx-header .jajiRx-shapes > .jajiRx-textblock * {
+  text-align: center !important;
+  width: auto !important;
+  height: auto !important;
+  display: block;
+}
+
+.default-responsive .jajiRx-header .jajiRx-slider .jajiRx-textblock * {
+  text-align: center !important;
+  width: auto !important;
+  height: auto !important;
+  display: block;
+}
+
+/* For icons like facebook, rss, etc. */
+.responsive .jajiRx-header > .jajiRx-textblock > div {
+  width: 100%;
+}
+/* dynamic width nav */
+.responsive nav.jajiRx-nav,
+.responsive .jajiRx-nav-inner {
+  width: auto !important;
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  margin-top: 0;
+  margin-bottom: 0;
+  min-width: 0;
+  text-align: left !important;
+}
+
+.responsive nav.jajiRx-nav {
+  min-width: 1%;
+}
+
+.responsive .jajiRx-nav {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 20px;
+}
+
+/* full width hmenu, instead of inline-block */
+.responsive .jajiRx-nav ul.jajiRx-hmenu {
+  float: none;
+  text-align: center;
+  display: none;
+}
+
+/* elements on different lines */
+.responsive .jajiRx-nav ul.jajiRx-hmenu li,
+.responsive .jajiRx-hmenu-extra1,
+.responsive .jajiRx-hmenu-extra2 {
+  float: none;
+}
+
+/* horizontal margins */
+.responsive .jajiRx-nav ul.jajiRx-hmenu > li:first-child,
+.responsive .jajiRx-nav ul.jajiRx-hmenu > li:last-child,
+.responsive .jajiRx-nav ul.jajiRx-hmenu > li {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* separator */
+.responsive .jajiRx-nav ul.jajiRx-hmenu > li:before {
+  display: none;
+}
+
+/* vertical distance between items */
+.responsive .jajiRx-nav ul.jajiRx-hmenu a {
+  margin-top: 1px !important;
+  margin-bottom: 1px !important;
+  height: auto;
+  white-space: normal;
+}
+
+.responsive .jajiRx-nav ul.jajiRx-hmenu > li:first-child > a {
+  margin-top: 0 !important;
+}
+
+.responsive .jajiRx-nav ul.jajiRx-hmenu > li:last-child > a {
+  margin-bottom: 0 !important;
+}
+
+/* fixes for extended menu */
+.responsive .jajiRx-nav .ext,
+.responsive .jajiRx-nav ul.jajiRx-hmenu > li > ul,
+.responsive .jajiRx-nav ul.jajiRx-hmenu > li > ul > li,
+.responsive .jajiRx-nav ul.jajiRx-hmenu > li > ul > li a {
+  width: auto !important;
+}
+
+/* submenu position on hover */
+.responsive .jajiRx-nav ul.jajiRx-hmenu ul {
+  left: auto;
+  right: auto;
+  top: auto;
+  bottom: auto;
+  display: none;
+  position: relative;
+  visibility: visible;
+}
+
+.responsive .jajiRx-nav ul.jajiRx-hmenu li.active > ul {
+  display: block !important;
+}
+.responsive .jajiRx-nav ul.jajiRx-hmenu ul li.active > a {
+  font-weight: bold;
+}
+
+.jajiRx-nav .jajiRx-menu-btn {
+  border: 1px solid #404040;
+  border-radius: 3px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+  display: none;
+  -svg-background: linear-gradient(to bottom, #707070 0, #000 100%);
+  background: -ms-linear-gradient(top, #707070 0, #000 100%);
+  background: -moz-linear-gradient(top, #707070 0, #000 100%);
+  background: -o-linear-gradient(top, #707070 0, #000 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #707070),
+    color-stop(1, #000)
+  );
+  background: -webkit-linear-gradient(top, #707070 0, #000 100%);
+  background: linear-gradient(to bottom, #707070 0, #000 100%);
+  margin: 3px;
+  outline: none;
+  padding: 5px;
+  position: relative;
+  vertical-align: bottom;
+  width: 20px;
+}
+
+.jajiRx-nav .jajiRx-menu-btn span {
+  background: #e0e0e0;
+  border-radius: 2px;
+  display: block;
+  height: 3px;
+  margin: 3px 1px;
+  position: relative;
+  -moz-transition: background 0.2s;
+  -o-transition: background 0.2s;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+.jajiRx-nav .jajiRx-menu-btn:hover span {
+  background: #f3f3f3;
+}
+
+.responsive .jajiRx-nav .jajiRx-menu-btn {
+  display: inline-block;
+}
+
+.responsive .jajiRx-nav .jajiRx-hmenu.visible {
+  display: block;
+}
+
+.responsive .jajiRx-nav ul.jajiRx-hmenu > li > ul > li:first-child:after {
+  display: none;
+}
+.responsive .jajiRx-nav ul.jajiRx-hmenu ul a {
+  padding-left: 4% !important;
+}
+.responsive .jajiRx-nav ul.jajiRx-hmenu ul ul a {
+  padding-left: 6% !important;
+}
+.responsive .jajiRx-nav ul.jajiRx-hmenu ul ul ul a {
+  padding-left: 8% !important;
+}
+.responsive .jajiRx-nav ul.jajiRx-hmenu ul ul ul ul a {
+  padding-left: 10% !important;
+}
+.responsive .jajiRx-nav ul.jajiRx-hmenu ul ul ul ul ul a {
+  padding-left: 12% !important;
+}
+
+.responsive .jajiRx-nav ul.jajiRx-hmenu > li > ul {
+  padding: 0;
+}
+
+.responsive .jajiRx-nav ul.jajiRx-hmenu > li > ul:before {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.responsive .jajiRx-sheet {
+  width: auto !important;
+  min-width: 240px !important;
+  max-width: none !important;
+  margin-right: 1% !important;
+  margin-left: 1% !important;
+}
+
+#jajiRx-resp {
+  display: none;
+}
+
+@media all and (max-width: 899px) {
+  #jajiRx-resp,
+  #jajiRx-resp-t {
+    display: block;
+  }
+  #jajiRx-resp-m {
+    display: none;
+  }
+}
+
+@media all and (max-width: 480px) {
+  #jajiRx-resp,
+  #jajiRx-resp-m {
+    display: block;
+  }
+  #jajiRx-resp-t {
+    display: none;
+  }
+}
+
+#jajiRx-resp-desktop {
+  display: none;
+}
+#jajiRx-resp-tablet-landscape {
+  display: none;
+}
+#jajiRx-resp-tablet-portrait {
+  display: none;
+}
+#jajiRx-resp-phone-landscape {
+  display: none;
+}
+#jajiRx-resp-phone-portrait {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  #jajiRx-resp-desktop {
+    display: block;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+  #jajiRx-resp-tablet-landscape {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  #jajiRx-resp-tablet-portrait {
+    display: block;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  #jajiRx-resp-phone-landscape {
+    display: block;
+  }
+}
+
+@media (max-width: 479px) {
+  #jajiRx-resp-phone-portrait {
+    display: block;
+  }
+}
+.responsive .jajiRx-content-layout,
+.responsive .jajiRx-content-layout-row,
+.responsive .jajiRx-layout-cell {
+  display: block;
+}
+
+.responsive .jajiRx-layout-cell {
+  width: auto !important;
+  height: auto !important;
+}
+
+.responsive .jajiRx-content-layout:after,
+.responsive .jajiRx-content-layout-row:after,
+.responsive .jajiRx-layout-cell:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.responsive .responsive-tablet-layout-cell,
+.responsive.responsive-tablet
+  .jajiRx-footer
+  .jajiRx-content-layout
+  .jajiRx-layout-cell {
+  margin: 1%;
+  width: 98% !important;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.responsive .responsive-layout-row-2 .responsive-tablet-layout-cell,
+.responsive.responsive-tablet
+  .jajiRx-footer
+  .jajiRx-content-layout
+  .responsive-layout-row-2
+  .jajiRx-layout-cell {
+  width: 48% !important;
+}
+
+.responsive .responsive-layout-row-3 .responsive-tablet-layout-cell,
+.responsive.responsive-tablet
+  .jajiRx-footer
+  .jajiRx-content-layout
+  .responsive-layout-row-3
+  .jajiRx-layout-cell {
+  width: 31% !important;
+}
+.responsive .jajiRx-post {
+  border-radius: 0;
+}
+
+.responsive .jajiRx-footer-inner {
+  width: auto;
+  padding: 2% !important;
+}
